@@ -1,4 +1,15 @@
-const array = [1, 2, 3];
 const txt = "hello my name is mohammad";
 
-console.log(array);
+const array = ["hello", 10, true, 98, false, "hesam", "gholi"];
+
+const obj = {
+    name: "mmd",
+    familly: "yavarii",
+    address: {
+        country: "Iran",
+        city: "Kermanshah",
+        zip: {
+            zipCode: 231454,
+        },
+    },
+};
