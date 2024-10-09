@@ -3,30 +3,25 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>rock paper scissr</title>
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
-        <button id="holdBtn" style="padding: 2em 4em">Hold me</button>
+        <header>
+            <p><span id="computerScode">0</span> : compputer</p>
+            <p>you : <span id="userScode">0</span></p>
+        </header>
 
-        <script src="./main.js"></script>
+        <main>
+            <div id="screen">5</div>
+        </main>
+
+        <footer>
+            <button class="acts">rock</button>
+            <button class="acts">paper</button>
+            <button class="acts">scissor</button>
+        </footer>
+
+        <script src="./main.js" type="module"></script>
     </body>
 </html>
-
-<!-- 
-
-    const a = document.createElement("a");
-a.style = `
-    margin: 4em;
-    padding: 1em 2em;
-    display: inline-block;
-    border-radius: 10px;
-    background-color: #ccc;
-    color: #000;
-    text-decoration: none;
-`;
-a.href = "https://google.com";
-a.innerText = "google";
-a.target = "_blank";
-document.body.prepend(a);
-
- -->
